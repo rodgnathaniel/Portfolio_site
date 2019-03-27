@@ -33,7 +33,7 @@ h1 {
     width: 50%;
     height: 7%;
     padding: 1.5%;
-    background-color:rgba(	102,205,170,.6);
+    background-color:rgba();
     color:black;
     text-shadow: 1.4px 1.4px rgba(	255,255,240,1);
     border-radius: 20px 20px 20px 20px;
@@ -51,11 +51,12 @@ h1 {
     font-family: 'Amatic SC', cursive;
 
 }
+/* 102,205,170,.6 */
 h2 {
     width: 45%;
     height: 5%;
     padding: 1.5%;
-    background-color:rgba(	102,205,170,.6);
+    background-color:rgba(255,255,240,.9);
     color:black;
     text-shadow: 1px 1px rgba(	255,255,240,1);
     border-radius: 20px 20px 20px 20px;
