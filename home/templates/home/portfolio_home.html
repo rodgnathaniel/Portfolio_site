@@ -11,7 +11,6 @@
             <div id="left">
                 <h1 id="name">Nathaniel Thomas Rodgers</h1>
                 <h2 id="dev">Web Development</h2>
-                <!-- <h3>Contact</h3> -->
                
             </div>
 
@@ -31,16 +30,6 @@
                     <a id="github" href="https://github.com/rodgnathaniel">Github</a>
                     <a id="linkedin" href="https://www.linkedin.com/in/nathaniel-rodgers-109104170?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNVXwse0TRb6TzH1q4mjnBg%3D%3D">Linkedin</a>
                 </div>
-
-                <!-- <div class="modal_3">
-                    <button class="close" id="close_3" style="display:none"></button>
-                    <a id="github" href="https://github.com/rodgnathaniel">Github</a>
-                    <pre id="span_3">Contact:
-                                    541.646.5895
-                                    rodgnathaniel@gmail.com 
-                                    <a href="">Linkedin</a>
-                    </pre>
-                </div> -->
 
                 <div class="modal_2">
                     <span id="span_2">Portfolio</span>
@@ -69,9 +58,6 @@
 
                 var pentagon_img = document.querySelector("#pentagon_img");
 
-                // let close_1 = document.querySelector('#close_1');
-                // let close_2 = document.querySelector('#close_2');
-                // let close_3 = document.querySelector('#close_3');
 
                 let span_2 = document.querySelector('#span_2')
                 let modal_3 = document.querySelector('#modal_3')
@@ -102,12 +88,8 @@
                     height: 200,
                     width: 3
                 }
-                // let cnv_middle = {
-                //     px:0,
-                //     py: 145,
-                //     height: 5,
-                //     width: 25
-                // }
+    
+
                 let cnv_bottom = {
                     px:0,
                     py: 189,
@@ -152,10 +134,6 @@
                 span_2.onmouseover = function() { 
                     modal_3_open()
                 };
-                // modal_3.onmouseout = function() { 
-                //     close_3.onclick()
-                // };
-
 
                 var modal_3_open = function() {
                     document.querySelector(".modal_3").style.display = "flex";  
@@ -216,10 +194,6 @@
                         bottom_contact = false
                   
                         modalOpen()
-
-                    // } else if (check_collision(pentagon, cnv_middle)) {
-                    //     pentagon.vy = 0
-                    //     modal_3_open()
 
                     } else if (check_collision(pentagon, cnv_bottom)) {
                         pentagon.vy = 0
