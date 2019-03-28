@@ -33,9 +33,9 @@ h1 {
     width: 50%;
     height: 7%;
     padding: 1.5%;
-    background-color:rgba();
+    background-color:rgba(255,255,240,.9);
     color:black;
-    text-shadow: 1.4px 1.4px rgba(	255,255,240,1);
+    text-shadow: 1.4px 1.4px rgba(	211,211,211);
     border-radius: 20px 20px 20px 20px;
     border: 3%;
     font-size: 225%;
@@ -58,7 +58,7 @@ h2 {
     padding: 1.5%;
     background-color:rgba(255,255,240,.9);
     color:black;
-    text-shadow: 1px 1px rgba(	255,255,240,1);
+    text-shadow: 1px 1px rgba(211,211,211);
     border-radius: 20px 20px 20px 20px;
     border: 3%;
     font-size: 115%;
@@ -96,7 +96,7 @@ h2 {
     border-radius: 12px;
     display: none;
     flex-direction: column;
-    box-shadow: 0 0 10px 0 rgba(143,188,143,.7);
+    box-shadow: 0 0 10px 0 rgba(211,211,211,.7);
 }
 .modal_1 span{
     color: black;
@@ -132,7 +132,7 @@ h2 {
 }
 
 .modal_1 a:hover {
-    background-color:rgba(	102,205,170,.2);
+    background-color:rgba(205,92,92,.1);
 }
 
 .modal_2 {
@@ -148,7 +148,7 @@ h2 {
     border-radius: 12px;
     display: none;
     flex-direction: column;
-    box-shadow: 0 0 10px 0 rgba(143,188,143,.7);
+    box-shadow: 0 0 10px 0 rgba(211,211,211,.7);
 }
 .modal_2 span{
     color: black;
@@ -164,7 +164,7 @@ h2 {
 }
 
 .modal_2 span:hover {
-    background-color:rgba(	102,205,170,.2);
+    background-color:rgba(205,92,92,.1);
 }
 
 .modal_3 {
@@ -180,7 +180,7 @@ h2 {
     border-radius: 12px;
     display: none;
     flex-direction: row;
-    box-shadow: 0 0 10px 0 rgba(143,188,143,.7);
+    box-shadow: 0 0 10px 0 rgba(211,211,211,.7);
 }
 .modal_3 a {
     color: black;
@@ -198,7 +198,7 @@ h2 {
 }
 
 .modal_3 a:hover {
-    background-color:rgba(	102,205,170,.2);
+    background-color:rgba(205,92,92,.1);
 }
 .close {
     position: absolute;
